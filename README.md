@@ -1,7 +1,7 @@
 # high-rising-city-artifact
 VISSOFT 2017 artifact
 
-# How to use
+# How to run
 
 1.Download this repository.
 
@@ -20,7 +20,5 @@ VISSOFT 2017 artifact
   * Mac or Linux
     On terminal, execute a shell script "Run/linux_mac/***.sh". You need to set current directory "Run/linux_mac/".
 
-4.If the visualizer program and the sample program are correctly executed, a connection is established between two program.
-  These program uses localhost:8000 port.
+# How to explore city
 
-5.
