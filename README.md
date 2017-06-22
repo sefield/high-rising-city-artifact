@@ -24,7 +24,7 @@ Katsuya Ogami, Raula Gaikovina Kula, Hideaki Hata, Takashi Ishio, and Kenichi Ma
     Double click `Run/win/MarioLike.bat` or `Run/win/Tetris.bat`.
 
   * Mac or Linux  
-    On terminal, execute a shell script "Run/linux_mac/***.sh". You need to set current directory "Run/linux_mac/".
+    On terminal, execute a shell script. You need to set current directory `Run/linux_mac/`.
     ```
     cd Run/linux_mac/
     ./MarioLike.sh or ./Tetris.sh
