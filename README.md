@@ -41,8 +41,10 @@ Katsuya Ogami, Raula Gaikovina Kula, Hideaki Hata, Takashi Ishio, and Kenichi Ma
 
 ## Movie
 
-* Tetris game, which is discussed in the paper.  
+* [Tetris game](https://github.com/exal99/Tetris)  
+  We discussed in the paper.  
 [![](http://img.youtube.com/vi/eleVo19Hp4k/0.jpg)](https://www.youtube.com/watch?v=eleVo19Hp4k)
-* MarioLike game  
-We found a short freeze bug in this game on Windows. When some sound effects run, the game sometimes freezes.  
+
+* [MarioLike game](https://github.com/aidiary/javagame)  
+  We found a short freeze bug in this game on Windows. When some sound effects run, the game sometimes freezes.  
 [![](http://img.youtube.com/vi/_2GOglYqN8g/0.jpg)](https://www.youtube.com/watch?v=_2GOglYqN8g)
