@@ -1,7 +1,7 @@
 # High Rising City Artifact
 This repository contains the VISSOFT 2017 artifact for the following paper:
 
->Katsuya Ogami, Raula Gaikovina Kula, Hideaki Hata, Takashi Ishio, and Kenichi Matsumoto, ***"Using High-Rising Cities to Visualize Performance in Real-Time,"***. In Proc. of 5th IEEE Working Conference on Software Visualization (VISSOFT 2017), (to appear).
+>Katsuya Ogami, Raula Gaikovina Kula, Hideaki Hata, Takashi Ishio, and Kenichi Matsumoto, "Using High-Rising Cities to Visualize Performance in Real-Time,". In Proc. of 5th IEEE Working Conference on Software Visualization (VISSOFT 2017), (to appear).
 
 ## Installation and Profiling a sample program:
 
@@ -54,6 +54,6 @@ This repository contains the VISSOFT 2017 artifact for the following paper:
 
 ## Extras (Optional)
 
-To profile your own java program, you can run the command:
+To profile your own java program, you can execute the command below (i.e., replacing the Tetris.jar with your own program):
 
 `java -javaagent:"../HighRisingCityAgent/HighRisingCityAgent.jar" -jar Tetris.jar`
