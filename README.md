@@ -39,7 +39,7 @@ This repository contains the VISSOFT 2017 artifact for the following paper:
   * Zoom ... Wheel spin
   * Slide ... Wheel button drag
 
-* When you place mouse cursor on 3D object (package, class or method), displays the tooltip which states the
+* When you place mouse cursor on 3D object (package, class or method), displays the a tooltip that describes the highlighted building.
 
 ## Sample Demonstrations:
 
