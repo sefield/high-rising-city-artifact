@@ -1,50 +1,59 @@
 # High Rising City Artifact
-VISSOFT 2017 artifact for the following paper:
+This repository contains the VISSOFT 2017 artifact for the following paper:
 
-Katsuya Ogami, Raula Gaikovina Kula, Hideaki Hata, Takashi Ishio, and Kenichi Matsumoto, "Using High-Rising Cities to Visualize Performance in Real-Time," In Proc. of 5th IEEE Working Conference on Software Visualization (VISSOFT 2017), (accepted, to appear).
+>Katsuya Ogami, Raula Gaikovina Kula, Hideaki Hata, Takashi Ishio, and Kenichi Matsumoto, ***"Using High-Rising Cities to Visualize Performance in Real-Time,"***. In Proc. of 5th IEEE Working Conference on Software Visualization (VISSOFT 2017), (to appear).
 
-## How to run
+## Installation and Profiling a sample program:
 
 1. Clone or download this repository.
 
-2. Execute a visualizer program. You may have to set execution permission of program file.
+`git clone https://github.com/sefield/high-rising-city-artifact`
 
-  * Windows  
+2. Install and execute our high-rising-city Visualization. You may have to set execution permission of program file. (Note: installers are located in the HighRisingCityVisualizer folder)
+
+  * ***Windows***  
     Double click `HighRisingCityVisualizer/HighRisingCityVisualizer_win_x86_64/HighRisingCityVisualizer_win_x86_64.exe`.
 
-  * Mac  
+  * ***Mac***  
     Double click `HighRisingCityVisualizer/HighRisingCityVisualizer_mac.app`.
 
-  * Linux  
+  * ***Linux***  
     Double click `HighRisingCityVisualizer/HighRisingCityVisualizer_linux/HighRisingCityVisualizer_linux.x86" (or .x86_64)`.
 
-3. Run one of sample java programs.
+3. Run and profile a sample java program.(Note: sample programs are located in the Run folder)
 
-  * Windows  
+  * ***Windows***   
     Double click `Run/win/MarioLike.bat` or `Run/win/Tetris.bat`.
 
-  * Mac or Linux  
+  * ***Mac/Linux***   
     On terminal, execute a shell script. You need to set current directory `Run/linux_mac/`.
     ```
     cd Run/linux_mac/
     ./MarioLike.sh or ./Tetris.sh
     ```
 
-## How to explore city
+## How to explore the City
 
-* You can controll camera with mouse.
+* You can browse the city using the following mouse commands:
   * Rotate ... Right button drag
   * Zoom ... Wheel spin
   * Slide ... Wheel button drag
 
-* When you place mouse cursor on 3D object (package, class or method), you can see description about it.
+* When you place mouse cursor on 3D object (package, class or method), displays the tooltip which states the
 
-## Movie
+## Sample Demonstrations:
 
 * [Tetris game](https://github.com/exal99/Tetris)  
-  We discussed in the paper.  
+  The case study that was used for the VISSOFT paper.  
 [![](http://img.youtube.com/vi/eleVo19Hp4k/0.jpg)](https://www.youtube.com/watch?v=eleVo19Hp4k)
 
 * [MarioLike game](https://github.com/aidiary/javagame)  
-  We found a short freeze bug in this game on Windows. When some sound effects run, the game sometimes freezes.  
+(Not in the paper) The tool was able to detect a freezing bug. This bug is intermittent and not easily detectable.
+
 [![](http://img.youtube.com/vi/_2GOglYqN8g/0.jpg)](https://www.youtube.com/watch?v=_2GOglYqN8g)
+
+## Extras (Optional)
+
+To profile your own java program, you can run the command:
+
+`java -javaagent:"../HighRisingCityAgent/HighRisingCityAgent.jar" -jar Tetris.jar`
