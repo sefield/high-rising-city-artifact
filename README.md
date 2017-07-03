@@ -49,11 +49,10 @@ This repository contains the VISSOFT 2017 artifact for the following paper:
 
 * [MarioLike game](https://github.com/aidiary/javagame)  
 (Not in the paper) The tool was able to detect a freezing bug. This bug is intermittent and not easily detectable.
-
 [![](http://img.youtube.com/vi/_2GOglYqN8g/0.jpg)](https://www.youtube.com/watch?v=_2GOglYqN8g)
 
 ## Extras (Optional)
 
-To profile your own java program, you can execute the command below (i.e., replacing the Tetris.jar with your own program):
+To profile your own java program, you can execute the command below (i.e., replacing the Tetris.jar with your own program at `Run/win/Tetris.bat` or `Run/linux_mac/Tetris.sh`):
 
 `java -javaagent:"../HighRisingCityAgent/HighRisingCityAgent.jar" -jar Tetris.jar`
