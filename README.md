@@ -57,7 +57,7 @@ To profile your own java program, you can execute the command below (i.e., repla
 
 `java -javaagent:"../HighRisingCityAgent/HighRisingCityAgent.jar" -jar Tetris.jar`
 
-## license
+## ASM Library Usage License
 
 Copyright (c) 2000-2011 INRIA, France Telecom
 All rights reserved.
@@ -88,4 +88,3 @@ INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
 CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
 ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF
 THE POSSIBILITY OF SUCH DAMAGE.
-
