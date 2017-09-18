@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/95059554.svg)](https://zenodo.org/badge/latestdoi/95059554)
+
 # High Rising City Artifact
 This repository contains the VISSOFT 2017 artifact for the following paper:
 
