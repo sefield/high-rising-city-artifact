@@ -1,7 +1,7 @@
 # High Rising City Artifact
 This repository contains the VISSOFT 2017 artifact for the following paper:
 
->Katsuya Ogami, Raula Gaikovina Kula, Hideaki Hata, Takashi Ishio, and Kenichi Matsumoto, "Using High-Rising Cities to Visualize Performance in Real-Time,". In Proc. of 5th IEEE Working Conference on Software Visualization (VISSOFT 2017), (to appear).
+>Katsuya Ogami, Raula Gaikovina Kula, Hideaki Hata, Takashi Ishio, and Kenichi Matsumoto, "Using High-Rising Cities to Visualize Performance in Real-Time,". In Proc. of 5th IEEE Working Conference on Software Visualization (VISSOFT 2017), pp. 34-42.
 
 ## Installation and Profiling a sample program:
 
