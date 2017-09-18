@@ -1,6 +1,4 @@
-[![DOI](https://zenodo.org/badge/95059554.svg)](https://zenodo.org/badge/latestdoi/95059554)
-
-# High Rising City Artifact [![GitHub Logo](http://vissoft17.dcc.uchile.cl/img/artifact.png)](http://vissoft17.dcc.uchile.cl/)
+# High Rising City Artifact [![DOI](https://zenodo.org/badge/95059554.svg)](https://zenodo.org/badge/latestdoi/95059554) [![GitHub Logo](http://vissoft17.dcc.uchile.cl/img/artifact.png)](http://vissoft17.dcc.uchile.cl/)
 This repository contains the VISSOFT 2017 artifact for the following paper:
 
 >Katsuya Ogami, Raula Gaikovina Kula, Hideaki Hata, Takashi Ishio, and Kenichi Matsumoto, "Using High-Rising Cities to Visualize Performance in Real-Time,". In Proc. of 5th IEEE Working Conference on Software Visualization (VISSOFT 2017), pp. 34-42.
